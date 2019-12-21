@@ -1,0 +1,13 @@
+.side-menu {
+    width: 16%;
+    /* border: 2px solid gray; */
+    float: left;
+    height: 100vh;
+    background-color: #222D32;
+    display: block;
+}
+.nav-menu {
+    width: 84%;
+    float: left;
+    line-height: 0.1rem;
+}

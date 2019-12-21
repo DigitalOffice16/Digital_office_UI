@@ -1,0 +1,144 @@
+.text-white.sidenav-text {
+    height: 47px;
+    background: #357CA5;
+}
+.sidenav-text ,.p-2 > p {
+    text-align: center;
+    padding: 2px;
+    font-weight: 500;
+}
+img.rounded-circle {
+  max-width: 45px;
+}
+.logo-text{
+    line-height: 0rem;
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+a.online {
+    text-decoration-line: none;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+}
+i.fa.fa-circle.text-success {
+    padding: 2px;
+}
+.sidebar-menu {
+    list-style: none;
+    white-space: nowrap;
+}
+
+.sidebar-menu > li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a {
+    color: #fff;
+    background: #1e282c;
+}
+.sidebar-menu>li>a {
+    border-left: 3px solid transparent;
+}
+ .sidebar a {
+    color: #b8c7ce;
+}
+.sidebar-menu li>a {
+    position: relative;
+}
+
+.sidebar-menu>li>a {
+    padding: 12px 5px 12px 15px;
+    display: block;
+}
+.sidebar-menu {
+    list-style: none;
+    white-space: nowrap;
+    overflow: hidden;
+	 list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-menu > li.header {
+    color: #4b646f;
+    background: #1a2226;
+	 overflow: hidden;
+    text-overflow: clip;
+	 white-space: nowrap;
+	 padding: 10px 98px 10px 15px;
+    font-size: 12px;
+}
+
+.sidebar-menu>li {
+    position: relative;
+    margin: 0;
+    position: relative;
+    padding: 0;
+}
+
+.sidebar-menu>li.active>a {
+    border-left-color: #3c8dbc;
+}
+.sidebar-menu>li>a {
+    border-left: 3px solid transparent;
+    position: relative;
+	padding: 12px 5px 12px 12px;
+    display: block;
+}
+.sidebar-menu>li>a>.fa, .sidebar-menu>li>a>.glyphicon, .sidebar-menu>li>a>.ion {
+    width: 20px;
+}
+
+.sidebar-menu li>a>.pull-right-container {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -7px;
+}
+ .sidebar-menu >li>.treeview-menu {
+    margin: 0 1px;
+    background: #2c3b41;
+}
+.treeview.menu-open  >ul.treeview-menu {
+    overflow: visible;
+    height: auto;
+}
+.treeview>ul.treeview-menu {
+    overflow: hidden;
+    height: auto;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.treeview-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+}
+.treeview-menu>li {
+    margin: 0;
+}
+ .treeview-menu > li >a {
+    color: #8aa4af;
+}
+ a {
+    color: #b8c7ce;
+    text-decoration: none;
+}
+li > a {
+    padding: 5px 5px 5px 15px;
+    display: block;
+    font-size: 14px;
+}
+
+.treeview-menu>li>a>.fa, .treeview-menu>li>a>.glyphicon, .treeview-menu>li>a>.ion {
+    width: 20px;
+}
+.text-red {
+    color: #dd4b39 !important;
+}

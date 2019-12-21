@@ -1,0 +1,25 @@
+<!-- 
+    <nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="currentUser">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" routerLink="/">Home</a>
+            <a class="nav-item nav-link">Logout</a>
+        </div>
+        
+    </nav>
+    
+    <div class="container">     
+        <router-outlet></router-outlet>
+    </div> -->
+
+<div *ngIf="currentUser">
+    <div class="side-menu">
+      <app-sidemenu></app-sidemenu>
+    </div>
+    <div class="nav-menu">
+        <app-headermenu></app-headermenu>
+    </div>
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+          

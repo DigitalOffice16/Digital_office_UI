@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>EDigitalUI</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <app-root></app-root>
+  <script>
+    $(document).ready(function () {
+      $("#nav-toggle").on("click", function () {
+        if($(".side-menu").width() == 215.828) {
+          //console.log("trigger blocked....");
+          $(".side-menu").css({"width":"3%"});
+          $(".nav-menu").css({"width":"97%"});
+          $("span").hide();
+          $(".rounded-circle").css({"max-width":"26px"});
+         
+
+          //alert($(".side-menu").width());
+        }
+         else if($(".side-menu").width() == 40.4688) {
+         // console.log("trigger none....");
+         $(".side-menu").css({"width":"16%"});
+          // $(".side-menu").css("display", "block");
+          $(".nav-menu").css({"width":"84%"});
+          $("span").show();
+          $(".rounded-circle").css({"max-width":"45px"});
+        }
+        //alert($(".side-menu").width());
+        
+        
+        // if ($(".side-menu").css('display', 'block')) {
+        //   $(".side-menu").css("display", "none");
+        //   //  $(".nav-menu").css({"width":"100%"}); 
+        //   console.log("trigger none....");
+        // }
+        // else if ($(".side-menu").css('display', 'none')) {
+        //   // $(".nav-menu").css({"width":"84%"}); 
+        //   console.log("trigger block....");
+        // }
+        // $(".side-menu").toggle();
+
+      });
+      $("#btntoggle").on("click", function () {
+        $("#treeview-submenu").slideToggle();
+      });
+
+
+
+    });
+  </script>
+</body>
+
+</html>

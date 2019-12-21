@@ -1,0 +1,7 @@
+.header{
+    background-color: #3C8DBC !important;
+    justify-content: flex-end;
+}
+a#nav-toggle {
+    cursor: pointer;
+}
